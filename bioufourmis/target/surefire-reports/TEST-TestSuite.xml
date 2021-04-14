@@ -1,0 +1,1104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="149.884" tests="8" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="/Users/bmummane/.m2/repository/webdriver/chromedriver/mac64/89.0.4389.23/chromedriver"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/bmummane/Automation/Discovery/CA/bioufourmis/target/test-classes:/Users/bmummane/Automation/Discovery/CA/bioufourmis/target/classes:/Users/bmummane/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/bmummane/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/bmummane/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/bmummane/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/bmummane/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/bmummane/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/bmummane/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/bmummane/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/bmummane/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/bmummane/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/bmummane/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/bmummane/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/bmummane/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/bmummane/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/bmummane/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/bmummane/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/bmummane/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/bmummane/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/bmummane/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/bmummane/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/bmummane/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/bmummane/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/bmummane/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/bmummane/.m2/repository/org/apache/poi/poi/4.1.1/poi-4.1.1.jar:/Users/bmummane/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/bmummane/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/bmummane/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/bmummane/.m2/repository/org/apache/poi/poi-ooxml/4.1.1/poi-ooxml-4.1.1.jar:/Users/bmummane/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.1/poi-ooxml-schemas-4.1.1.jar:/Users/bmummane/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/bmummane/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/bmummane/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/bmummane/.m2/repository/io/github/bonigarcia/webdrivermanager/4.0.0/webdrivermanager-4.0.0.jar:/Users/bmummane/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/bmummane/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/bmummane/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/bmummane/.m2/repository/org/apache/commons/commons-lang3/3.10/commons-lang3-3.10.jar:/Users/bmummane/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0/httpclient5-5.0.jar:/Users/bmummane/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0/httpcore5-5.0.jar:/Users/bmummane/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0/httpcore5-h2-5.0.jar:/Users/bmummane/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/bmummane/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/bmummane/.m2/repository/org/example/bioufourmis/1.0-SNAPSHOT/bioufourmis-1.0-SNAPSHOT.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Singapore"/>
+    <property name="user.country.format" value="SG"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/bmummane/Automation/Discovery/CA/bioufourmis/target/surefire/surefirebooter1924251374020175447.jar /Users/bmummane/Automation/Discovery/CA/bioufourmis/target/surefire 2021-04-14T17-49-35_777-jvmRun1 surefire3992515433660875875tmp surefire_0970889038366764324tmp"/>
+    <property name="surefire.test.class.path" value="/Users/bmummane/Automation/Discovery/CA/bioufourmis/target/test-classes:/Users/bmummane/Automation/Discovery/CA/bioufourmis/target/classes:/Users/bmummane/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/bmummane/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/bmummane/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/bmummane/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/bmummane/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/bmummane/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/bmummane/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/bmummane/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/bmummane/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/bmummane/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/bmummane/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/bmummane/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/bmummane/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/bmummane/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/bmummane/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/bmummane/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/bmummane/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/bmummane/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/bmummane/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/bmummane/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/bmummane/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/bmummane/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/bmummane/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/bmummane/.m2/repository/org/apache/poi/poi/4.1.1/poi-4.1.1.jar:/Users/bmummane/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/bmummane/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/bmummane/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/bmummane/.m2/repository/org/apache/poi/poi-ooxml/4.1.1/poi-ooxml-4.1.1.jar:/Users/bmummane/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.1/poi-ooxml-schemas-4.1.1.jar:/Users/bmummane/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/bmummane/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/bmummane/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/bmummane/.m2/repository/io/github/bonigarcia/webdrivermanager/4.0.0/webdrivermanager-4.0.0.jar:/Users/bmummane/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/bmummane/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/bmummane/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/bmummane/.m2/repository/org/apache/commons/commons-lang3/3.10/commons-lang3-3.10.jar:/Users/bmummane/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0/httpclient5-5.0.jar:/Users/bmummane/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0/httpcore5-5.0.jar:/Users/bmummane/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0/httpcore5-h2-5.0.jar:/Users/bmummane/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/bmummane/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/bmummane/.m2/repository/org/example/bioufourmis/1.0-SNAPSHOT/bioufourmis-1.0-SNAPSHOT.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/bmummane"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/bmummane/Automation/Discovery/CA/bioufourmis"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="idea.version2020.1.3" value="true"/>
+    <property name="surefire.real.class.path" value="/Users/bmummane/Automation/Discovery/CA/bioufourmis/target/surefire/surefirebooter1924251374020175447.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="user.name" value="bmummane"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.6"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/bmummane/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/67/9g9glwvx1m7353frw2hnqgg0rx5x5y/T/"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="user.dir" value="/Users/bmummane/Automation/Discovery/CA/bioufourmis"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="webdriver.gecko.driver" value="/Users/bmummane/.m2/repository/webdriver/geckodriver/macos/0.29.0/geckodriver"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/bmummane/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="java.ext.dirs" value="/Users/bmummane/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="signUp" classname="com.qa.automation.ecommerce.EcommerceTest" time="21.201">
+    <system-out><![CDATA[Ecommerce site launched on Chrome
+MakeMytrip site launched on Chrome
+user name 1is testuserqa0011748369500@gmail.com
+password 1is Mypwd@2021
+Selected Bengaluru as From City
+Selected hyderabad as To City
+fare  3341
+fare  3163
+fare  3163
+fare  3163
+fare  3163
+fare  3163
+fare  3163
+fare  3163
+fare  3163
+fare  3163
+fare  3163
+fare  3163
+fare  3163
+min of index 1
+Selected lowest fare date
+Assigning un & pwd
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChroSmteaDrting rCihvreormeD r8i9ve.r0 .489.308.94.2338 9(.6213b 0(86e1eb20c85e0e022c45b0a0b2040b4aeb4080d42e4b81db2b01b08383cdbdcadbcdac5759-79re-frsef/sbr/abrnachn-chhe-ahdeas/d4s3/894@{3#8299@4{#}2)9 4o}) onn p portor t 326633
+O0nl1y9 
+lOonclya ll coocaln nceocntnieocntsi oanrse  aarlel oawleldo.w
+ePledas.e
+ Psleeea hstet psse:e/ /hcthtrposm:e/d/rcihvreorm.ecdhrriovmeiru.mc.ohrrgo/msieucmu.riotryg-/csoencsuirdietrya-tcioonnssi defroart isoungsg efsotiro snusg ogne skteieopnisn ogn  CkhereopmiengD CrhirvomeerD rsiafvere .s
+afe.
+ChrComehDrroimevDerri vwears  wsatsa rstteadr tseudc cseuscscfuessfully.
+lly.
+Apr 14, 2021 5:49:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Apr 14, 2021 5:49:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="signUp" classname="com.qa.automation.ecommerce.EcommerceTest" time="19.715">
+    <system-out><![CDATA[MakeMytrip site launched on Firefox
+Ecommerce site launched on Firefox
+user name 1is testuserqa0013235475@gmail.com
+password 1is Mypwd@2021
+Selected Bengaluru as From City
+Selected hyderabad as To City
+Assigning un & pwd
+fare  3163
+fare  3163
+fare  3163
+fare  3163
+fare  3163
+fare  3163
+fare  3163
+fare  3163
+fare  3163
+fare  3163
+fare  3163
+fare  3163
+fare  3163
+min of index 0
+Selected lowest fare date
+]]></system-out>
+    <system-err><![CDATA[161839384410621833	g93844023e	cgkeocdkroidvreirv	eIrN	FION	FLOi	sLtiesning on 1t2e7n.i0n.g0 .o1n: 1192073.70
+.0.1:48630
+1166118833993388444140110	m1o	zmrouznrneurn:n:reurn:n:err	uInNnFeO	rR	uInNnFiOn	gR ucnonmimanngd :c o"/mAmpapnldi:c a"t/iAopnpsl/iFciarteifoonxs./apFpi/rCeofnotxe.natpsp//MCaocnOtSe/fnitrse/fMoax-cbOiSn/"f i"r-e-fmoaxr-iboinne"t te""- -"m-afrorieognreotutnde""  ""--nfoo-rreegmrootuen" d" ""--pnroof-irleemote"" "/var/folders/6 7/"9-gp9grlofwivxl1e" "/var/foldemr7s3/6573/fr9wg9glwvx1m7353frw2hnqgg0rx52x5hyn/qTg/gr0ursxt5_xm5oyz/pT/rroufsitl_emAoTzipHrFouf"
+ilesHWl6h"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618393855428	Marionette	INFO	Listening on port 60987
+1618393855529	Marionette	WARN	TLS certificate errors will be ignored for this session
+Apr 14, 2021 5:50:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1618393855749	Marionette	INFO	Listening on port 60988
+1618393855956	Marionette	WARN	TLS certificate errors will be ignored for this session
+Apr 14, 2021 5:50:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1618393862595	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+]]></system-err>
+  </testcase>
+  <testcase name="purchaseAnItem" classname="com.qa.automation.ecommerce.EcommerceTest" time="31.43"/>
+  <testcase name="purchaseAnItem" classname="com.qa.automation.ecommerce.EcommerceTest" time="30.753">
+    <system-out><![CDATA[MakeMytrip site launched on Firefox
+More Submenu Item name Activities & Tours
+More Submenu Item name Trip Ideas
+More Submenu Item name Giftcards
+More Submenu Item name My Biz
+Ecommerce site launched on Firefox
+More Submenu Item name International Flights
+More Submenu Item name International Hotels
+More Submenu Item name Deals
+Selected deals submenu option from more menu
+Logged in successfully
+Number of cities 20
+Navigated to sub menu
+City name new delhi, india
+City name mumbai, india
+City name bangalore, india
+Selected City name bangalore, india
+Selected Bengaluru as From City
+clicked on continue shopping
+Item added to cart
+chkOutTotalPrice $28.00
+Selected hyderabad as To City
+Selected date
+cartPrice $28.00
+]]></system-out>
+    <system-err><![CDATA[1618393888884	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1618393889413	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1618393896211	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1618393905256	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+]]></system-err>
+  </testcase>
+  <testcase name="getCheapestIndigoNonStopFlightsOnNexWeek" classname="com.qa.automation.makemytrip.MakeMyTripTest" time="29.673">
+    <system-out><![CDATA[Selected Indigo NonStop filter
+Flight details IndiGo
+10:25
+Bengaluru
+01 h
+Non stop
+11:25
+Hyderabad
+₹ 3,498
+VIEW PRICES
+Apply promo code ‘MMTTRAVEL’ and get up to ₹2000 discount on IndiGo flights
+View Flight Details
+Flight details IndiGo
+08:00
+Bengaluru
+01 h 05 m
+Non stop
+09:05
+Hyderabad
+₹ 3,498
+VIEW PRICES
+Apply promo code ‘MMTTRAVEL’ and get up to ₹2000 discount on IndiGo flights
+View Flight Details
+Flight details IndiGo
+11:45
+Bengaluru
+01 h 05 m
+Non stop
+12:50
+Hyderabad
+₹ 3,498
+VIEW PRICES
+Apply promo code ‘MMTTRAVEL’ and get up to ₹2000 discount on IndiGo flights
+View Flight Details
+Flight details IndiGo
+23:10
+Bengaluru
+01 h 05 m
+Non stop
+00:15
++ 1 DAY
+Hyderabad
+₹ 3,498
+VIEW PRICES
+Apply promo code ‘MMTTRAVEL’ and get up to ₹2000 discount on IndiGo flights
+View Flight Details
+Flight details IndiGo
+08:50
+Bengaluru
+01 h 10 m
+Non stop
+10:00
+Hyderabad
+₹ 3,498
+VIEW PRICES
+Apply promo code ‘MMTTRAVEL’ and get up to ₹2000 discount on IndiGo flights
+View Flight Details
+Flight details IndiGo
+19:45
+Bengaluru
+01 h 10 m
+Non stop
+20:55
+Hyderabad
+₹ 3,498
+VIEW PRICES
+Apply promo code ‘MMTTRAVEL’ and get up to ₹2000 discount on IndiGo flights
+View Flight Details
+Flight details IndiGo
+16:25
+Bengaluru
+01 h 15 m
+Non stop
+17:40
+Hyderabad
+₹ 3,498
+VIEW PRICES
+Apply promo code ‘MMTTRAVEL’ and get up to ₹2000 discount on IndiGo flights
+View Flight Details
+Flight details IndiGo
+21:20
+Bengaluru
+01 h 15 m
+Non stop
+22:35
+Hyderabad
+₹ 3,498
+VIEW PRICES
+Apply promo code ‘MMTTRAVEL’ and get up to ₹2000 discount on IndiGo flights
+View Flight Details
+Flight details IndiGo
+07:10
+Bengaluru
+01 h 20 m
+Non stop
+08:30
+Hyderabad
+₹ 3,498
+VIEW PRICES
+Apply promo code ‘MMTTRAVEL’ and get up to ₹2000 discount on IndiGo flights
+View Flight Details
+Number of Cheapest Indigo NonStop Flights 9
+]]></system-out>
+  </testcase>
+  <testcase name="getCheapestIndigoNonStopFlightsOnNexWeek" classname="com.qa.automation.makemytrip.MakeMyTripTest" time="28.313">
+    <system-out><![CDATA[Selected Indigo NonStop filter
+Flight details IndiGo
+10:25
+Bengaluru
+01 h
+Non stop
+11:25
+Hyderabad
+₹ 3,498
+VIEW PRICES
+Apply promo code ‘MMTTRAVEL’ and get up to ₹2000 discount on IndiGo flights
+View Flight Details
+Flight details IndiGo
+08:00
+Bengaluru
+01 h 05 m
+Non stop
+09:05
+Hyderabad
+₹ 3,498
+VIEW PRICES
+Apply promo code ‘MMTTRAVEL’ and get up to ₹2000 discount on IndiGo flights
+View Flight Details
+Flight details IndiGo
+11:45
+Bengaluru
+01 h 05 m
+Non stop
+12:50
+Hyderabad
+₹ 3,498
+VIEW PRICES
+Apply promo code ‘MMTTRAVEL’ and get up to ₹2000 discount on IndiGo flights
+View Flight Details
+Flight details IndiGo
+23:10
+Bengaluru
+01 h 05 m
+Non stop
+00:15
++ 1 DAY
+Hyderabad
+₹ 3,498
+VIEW PRICES
+Apply promo code ‘MMTTRAVEL’ and get up to ₹2000 discount on IndiGo flights
+View Flight Details
+Flight details IndiGo
+08:50
+Bengaluru
+01 h 10 m
+Non stop
+10:00
+Hyderabad
+₹ 3,498
+VIEW PRICES
+Apply promo code ‘MMTTRAVEL’ and get up to ₹2000 discount on IndiGo flights
+View Flight Details
+Flight details IndiGo
+19:45
+Bengaluru
+01 h 10 m
+Non stop
+20:55
+Hyderabad
+₹ 3,498
+VIEW PRICES
+Apply promo code ‘MMTTRAVEL’ and get up to ₹2000 discount on IndiGo flights
+View Flight Details
+Flight details IndiGo
+16:25
+Bengaluru
+01 h 15 m
+Non stop
+17:40
+Hyderabad
+₹ 3,498
+VIEW PRICES
+Apply promo code ‘MMTTRAVEL’ and get up to ₹2000 discount on IndiGo flights
+View Flight Details
+Flight details IndiGo
+21:20
+Bengaluru
+01 h 15 m
+Non stop
+22:35
+Hyderabad
+₹ 3,498
+VIEW PRICES
+Apply promo code ‘MMTTRAVEL’ and get up to ₹2000 discount on IndiGo flights
+View Flight Details
+Flight details IndiGo
+07:10
+Bengaluru
+01 h 20 m
+Non stop
+08:30
+Hyderabad
+₹ 3,498
+VIEW PRICES
+Apply promo code ‘MMTTRAVEL’ and get up to ₹2000 discount on IndiGo flights
+View Flight Details
+Number of Cheapest Indigo NonStop Flights 9
+]]></system-out>
+    <system-err><![CDATA[1618393879524	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+]]></system-err>
+  </testcase>
+  <testcase name="getFlightsFromDealsPage" classname="com.qa.automation.makemytrip.MakeMyTripTest" time="28.479">
+    <system-out><![CDATA[MakeMytrip site launched on Chrome
+Ecommerce site launched on Chrome
+More Submenu Item name Activities & Tours
+More Submenu Item name Trip Ideas
+More Submenu Item name Giftcards
+More Submenu Item name My Biz
+More Submenu Item name International Flights
+More Submenu Item name International Hotels
+More Submenu Item name Deals
+Selected deals submenu option from more menu
+Number of cities 20
+Logged in successfully
+City name new delhi, india
+City name mumbai, india
+City name bangalore, india
+Selected City name bangalore, india
+Selected Bengaluru as From City
+Navigated to sub menu
+Selected hyderabad as To City
+Selected date
+clicked on continue shopping
+Item added to cart
+chkOutTotalPrice $28.00
+cartPrice $28.00
+Flight details Go Air
+21:15
+New Delhi
+10 h 35 m
+1 stop via Goa
+07:50
++ 1 DAY
+Hyderabad
+₹ 4,480
+VIEW PRICES
+View Flight Details
+Flight details Go Air
+12:00
+New Delhi
+11 h 20 m
+1 stop via Goa
+23:20
+Hyderabad
+₹ 4,480
+VIEW PRICES
+View Flight Details
+Flight details Go Air
+20:15
+New Delhi
+11 h 35 m
+1 stop via Goa
+07:50
++ 1 DAY
+Hyderabad
+₹ 4,480
+VIEW PRICES
+View Flight Details
+Flight details Go Air
+10:40
+New Delhi
+12 h 40 m
+1 stop via Goa
+23:20
+Hyderabad
+₹ 4,480
+VIEW PRICES
+View Flight Details
+Flight details IndiGo
+16:30
+New Delhi
+04 h 40 m
+1 stop via Lucknow
+21:10
+Hyderabad
+₹ 4,485
+VIEW PRICES
+Apply promo code ‘MMTTRAVEL’ and get up to ₹2000 discount on IndiGo flights
+View Flight Details
+Flight details IndiGo
+15:45
+New Delhi
+05 h 05 m
+1 stop via Mumbai
+20:50
+Hyderabad
+₹ 4,485
+VIEW PRICES
+Apply promo code ‘MMTTRAVEL’ and get up to ₹2000 discount on IndiGo flights
+View Flight Details
+Flight details IndiGo
+06:05
+New Delhi
+05 h 10 m
+1 stop via Bhubaneswar
+11:15
+Hyderabad
+₹ 4,485
+VIEW PRICES
+Apply promo code ‘MMTTRAVEL’ and get up to ₹2000 discount on IndiGo flights
+View Flight Details
+Flight details IndiGo
+06:50
+New Delhi
+05 h 15 m
+1 stop via Mumbai
+12:05
+Hyderabad
+₹ 4,485
+VIEW PRICES
+Apply promo code ‘MMTTRAVEL’ and get up to ₹2000 discount on IndiGo flights
+View Flight Details
+Flight details IndiGo
+10:30
+New Delhi
+05 h 15 m
+1 stop via Mumbai
+15:45
+Hyderabad
+₹ 4,485
+VIEW PRICES
+Apply promo code ‘MMTTRAVEL’ and get up to ₹2000 discount on IndiGo flights
+View Flight Details
+Flight details IndiGo
+10:05
+New Delhi
+05 h 30 m
+1 stop via Goa
+15:35
+Hyderabad
+₹ 4,485
+VIEW PRICES
+View Flight Details
+Flight details IndiGo
+18:45
+New Delhi
+05 h 30 m
+1 stop via Bengaluru
+00:15
++ 1 DAY
+Hyderabad
+₹ 4,485
+VIEW PRICES
+Apply promo code ‘MMTTRAVEL’ and get up to ₹2000 discount on IndiGo flights
+View Flight Details
+Flight details IndiGo
+22:05
+New Delhi
+05 h 35 m
+1 stop via Goa
+03:40
++ 1 DAY
+Hyderabad
+₹ 4,485
+VIEW PRICES
+Apply promo code ‘MMTTRAVEL’ and get up to ₹2000 discount on IndiGo flights
+View Flight Details
+Flight details IndiGo
+05:50
+New Delhi
+05 h 45 m
+1 stop via Raipur
+11:35
+Hyderabad
+₹ 4,485
+VIEW PRICES
+Apply promo code ‘MMTTRAVEL’ and get up to ₹2000 discount on IndiGo flights
+View Flight Details
+Flight details IndiGo
+12:00
+New Delhi
+05 h 45 m
+1 stop via Mumbai
+17:45
+Hyderabad
+₹ 4,485
+VIEW PRICES
+Apply promo code ‘MMTTRAVEL’ and get up to ₹2000 discount on IndiGo flights
+View Flight Details
+Flight details IndiGo
+15:05
+New Delhi
+05 h 50 m
+1 stop via Bengaluru
+20:55
+Hyderabad
+₹ 4,485
+VIEW PRICES
+Apply promo code ‘MMTTRAVEL’ and get up to ₹2000 discount on IndiGo flights
+View Flight Details
+Flight details IndiGo
+02:25
+New Delhi
+06 h 05 m
+1 stop via Bengaluru
+08:30
+Hyderabad
+₹ 4,485
+VIEW PRICES
+Apply promo code ‘MMTTRAVEL’ and get up to ₹2000 discount on IndiGo flights
+View Flight Details
+Flight details IndiGo
+05:15
+New Delhi
+06 h 10 m
+1 stop via Bengaluru
+11:25
+Hyderabad
+₹ 4,485
+VIEW PRICES
+View Flight Details
+Flight details IndiGo
+16:25
+New Delhi
+06 h 10 m
+1 stop via Bengaluru
+22:35
+Hyderabad
+₹ 4,485
+VIEW PRICES
+Apply promo code ‘MMTTRAVEL’ and get up to ₹2000 discount on IndiGo flights
+View Flight Details
+Flight details IndiGo
+09:30
+New Delhi
+06 h 15 m
+1 stop via Mumbai
+15:45
+Hyderabad
+₹ 4,485
+VIEW PRICES
+Apply promo code ‘MMTTRAVEL’ and get up to ₹2000 discount on IndiGo flights
+View Flight Details
+Flight details IndiGo
+17:55
+New Delhi
+06 h 20 m
+1 stop via Bengaluru
+00:15
++ 1 DAY
+Hyderabad
+₹ 4,485
+VIEW PRICES
+Apply promo code ‘MMTTRAVEL’ and get up to ₹2000 discount on IndiGo flights
+View Flight Details
+Flight details IndiGo
+06:25
+New Delhi
+07 h
+1 stop via Chennai
+13:25
+Hyderabad
+₹ 4,485
+VIEW PRICES
+View Flight Details
+Flight details IndiGo
+06:40
+New Delhi
+07 h 05 m
+1 stop via Patna
+13:45
+Hyderabad
+₹ 4,485
+VIEW PRICES
+Apply promo code ‘MMTTRAVEL’ and get up to ₹2000 discount on IndiGo flights
+View Flight Details
+Flight details IndiGo
+12:10
+New Delhi
+07 h 15 m
+1 stop via Goa
+19:25
+Hyderabad
+₹ 4,485
+VIEW PRICES
+Apply promo code ‘MMTTRAVEL’ and get up to ₹2000 discount on IndiGo flights
+View Flight Details
+Flight details IndiGo
+00:05
+New Delhi
+08 h 05 m
+1 stop via Goa
+08:10
+Hyderabad
+₹ 4,485
+VIEW PRICES
+Apply promo code ‘MMTTRAVEL’ and get up to ₹2000 discount on IndiGo flights
+View Flight Details
+Flight details Go Air
+07:40
+New Delhi
+02 h
+Non stop
+09:40
+Hyderabad
+₹ 4,694
+VIEW PRICES
+Apply promo code ‘GREATDEAL’ and get up to ₹2000 discount on GoAir flights
+View Flight Details
+Flight details Go Air
+20:55
+New Delhi
+02 h
+Non stop
+22:55
+Hyderabad
+₹ 4,694
+VIEW PRICES
+Apply promo code ‘GREATDEAL’ and get up to ₹2000 discount on GoAir flights
+View Flight Details
+Flight details IndiGo
+22:40
+New Delhi
+02 h 05 m
+Non stop
+00:45
++ 1 DAY
+Hyderabad
+₹ 4,695
+VIEW PRICES
+Apply promo code ‘MMTTRAVEL’ and get up to ₹2000 discount on IndiGo flights
+View Flight Details
+Flight details Air India
+08:20
+New Delhi
+02 h 10 m
+Non stop
+10:30
+Hyderabad
+₹ 4,695
+VIEW PRICES
+View Flight Details
+Flight details IndiGo
+17:15
+New Delhi
+02 h 10 m
+Non stop
+19:25
+Hyderabad
+₹ 4,695
+VIEW PRICES
+Apply promo code ‘MMTTRAVEL’ and get up to ₹2000 discount on IndiGo flights
+View Flight Details
+Flight details IndiGo
+19:15
+New Delhi
+02 h 10 m
+Non stop
+21:25
+Hyderabad
+₹ 4,695
+VIEW PRICES
+Apply promo code ‘MMTTRAVEL’ and get up to ₹2000 discount on IndiGo flights
+View Flight Details
+Flight details IndiGo
+07:10
+New Delhi
+02 h 25 m
+Non stop
+09:35
+Hyderabad
+₹ 4,695
+VIEW PRICES
+View Flight Details
+Flight details IndiGo
+09:45
+New Delhi
+02 h 25 m
+Non stop
+12:10
+Hyderabad
+₹ 4,695
+VIEW PRICES
+Apply promo code ‘MMTTRAVEL’ and get up to ₹2000 discount on IndiGo flights
+View Flight Details
+Flight details IndiGo
+13:35
+New Delhi
+02 h 25 m
+Non stop
+16:00
+Hyderabad
+₹ 4,695
+VIEW PRICES
+Apply promo code ‘MMTTRAVEL’ and get up to ₹2000 discount on IndiGo flights
+View Flight Details
+Flight details IndiGo
+20:45
+New Delhi
+02 h 30 m
+Non stop
+23:15
+Hyderabad
+₹ 4,695
+VIEW PRICES
+Apply promo code ‘MMTTRAVEL’ and get up to ₹2000 discount on IndiGo flights
+View Flight Details
+Flight details Vistara
+14:45
+New Delhi
+02 h 15 m
+Non stop
+17:00
+Hyderabad
+₹ 4,696
+VIEW PRICES
+Apply promo code ‘FLYSPECIAL’ and get up to ₹1500 discount on Vistara flights
+View Flight Details
+Flight details Vistara
+17:35
+New Delhi
+02 h 15 m
+Non stop
+19:50
+Hyderabad
+₹ 4,696
+VIEW PRICES
+Apply promo code ‘FLYSPECIAL’ and get up to ₹1500 discount on Vistara flights
+View Flight Details
+Flight details Vistara
+07:05
+New Delhi
+02 h 20 m
+Non stop
+09:25
+Hyderabad
+₹ 4,696
+VIEW PRICES
+Apply promo code ‘FLYSPECIAL’ and get up to ₹1500 discount on Vistara flights
+View Flight Details
+Flight details Vistara
+20:35
+New Delhi
+02 h 20 m
+Non stop
+22:55
+Hyderabad
+₹ 4,696
+VIEW PRICES
+Apply promo code ‘FLYSPECIAL’ and get up to ₹1500 discount on Vistara flights
+View Flight Details
+Flight details AirAsia
+05:35
+New Delhi
+02 h 25 m
+Non stop
+08:00
+Hyderabad
+₹ 4,696
+VIEW PRICES
+Apply promo code ‘TRAVELTODAY’ and get up to ₹2000 discount on AirAsia flights
+View Flight Details
+Number of Cheapest Indigo NonStop Flights 39
+]]></system-out>
+  </testcase>
+  <testcase name="getFlightsFromDealsPage" classname="com.qa.automation.makemytrip.MakeMyTripTest" time="39.773">
+    <system-out><![CDATA[Flight details Go Air
+21:15
+New Delhi
+10 h 35 m
+1 stop via Goa
+07:50
++ 1 DAY
+Hyderabad
+₹ 4,480
+VIEW PRICES
+View Flight Details
+Flight details Go Air
+12:00
+New Delhi
+11 h 20 m
+1 stop via Goa
+23:20
+Hyderabad
+₹ 4,480
+VIEW PRICES
+View Flight Details
+Flight details Go Air
+20:15
+New Delhi
+11 h 35 m
+1 stop via Goa
+07:50
++ 1 DAY
+Hyderabad
+₹ 4,480
+VIEW PRICES
+View Flight Details
+Flight details Go Air
+10:40
+New Delhi
+12 h 40 m
+1 stop via Goa
+23:20
+Hyderabad
+₹ 4,480
+VIEW PRICES
+View Flight Details
+Flight details IndiGo
+16:30
+New Delhi
+04 h 40 m
+1 stop via Lucknow
+21:10
+Hyderabad
+₹ 4,485
+VIEW PRICES
+View Flight Details
+Flight details IndiGo
+15:45
+New Delhi
+05 h 05 m
+1 stop via Mumbai
+20:50
+Hyderabad
+₹ 4,485
+VIEW PRICES
+View Flight Details
+Flight details IndiGo
+06:05
+New Delhi
+05 h 10 m
+1 stop via Bhubaneswar
+11:15
+Hyderabad
+₹ 4,485
+VIEW PRICES
+View Flight Details
+Flight details IndiGo
+06:50
+New Delhi
+05 h 15 m
+1 stop via Mumbai
+12:05
+Hyderabad
+₹ 4,485
+VIEW PRICES
+View Flight Details
+Flight details IndiGo
+10:30
+New Delhi
+05 h 15 m
+1 stop via Mumbai
+15:45
+Hyderabad
+₹ 4,485
+VIEW PRICES
+View Flight Details
+Flight details IndiGo
+10:05
+New Delhi
+05 h 30 m
+1 stop via Goa
+15:35
+Hyderabad
+₹ 4,485
+VIEW PRICES
+View Flight Details
+Flight details IndiGo
+18:45
+New Delhi
+05 h 30 m
+1 stop via Bengaluru
+00:15
++ 1 DAY
+Hyderabad
+₹ 4,485
+VIEW PRICES
+View Flight Details
+Flight details IndiGo
+22:05
+New Delhi
+05 h 35 m
+1 stop via Goa
+03:40
++ 1 DAY
+Hyderabad
+₹ 4,485
+VIEW PRICES
+View Flight Details
+Flight details IndiGo
+05:50
+New Delhi
+05 h 45 m
+1 stop via Raipur
+11:35
+Hyderabad
+₹ 4,485
+VIEW PRICES
+View Flight Details
+Flight details IndiGo
+12:00
+New Delhi
+05 h 45 m
+1 stop via Mumbai
+17:45
+Hyderabad
+₹ 4,485
+VIEW PRICES
+View Flight Details
+Flight details IndiGo
+15:05
+New Delhi
+05 h 50 m
+1 stop via Bengaluru
+20:55
+Hyderabad
+₹ 4,485
+VIEW PRICES
+View Flight Details
+Flight details IndiGo
+02:25
+New Delhi
+06 h 05 m
+1 stop via Bengaluru
+08:30
+Hyderabad
+₹ 4,485
+VIEW PRICES
+View Flight Details
+Flight details IndiGo
+05:15
+New Delhi
+06 h 10 m
+1 stop via Bengaluru
+11:25
+Hyderabad
+₹ 4,485
+VIEW PRICES
+View Flight Details
+Flight details IndiGo
+16:25
+New Delhi
+06 h 10 m
+1 stop via Bengaluru
+22:35
+Hyderabad
+₹ 4,485
+VIEW PRICES
+View Flight Details
+Flight details IndiGo
+09:30
+New Delhi
+06 h 15 m
+1 stop via Mumbai
+15:45
+Hyderabad
+₹ 4,485
+VIEW PRICES
+View Flight Details
+Flight details IndiGo
+17:55
+New Delhi
+06 h 20 m
+1 stop via Bengaluru
+00:15
++ 1 DAY
+Hyderabad
+₹ 4,485
+VIEW PRICES
+View Flight Details
+Flight details IndiGo
+06:25
+New Delhi
+07 h
+1 stop via Chennai
+13:25
+Hyderabad
+₹ 4,485
+VIEW PRICES
+View Flight Details
+Number of Cheapest Indigo NonStop Flights 20
+]]></system-out>
+    <system-err><![CDATA[1618393915088	Marionette	INFO	Stopped listening on port 60987
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+org.openqa.selenium.StaleElementReferenceException: The element reference of <div class="listingCard"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'sinl112131m', ip: '192.168.10.146', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 86.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210310152336, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 23047, moz:profile: /var/folders/67/9g9glwvx1m7..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.6.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a989e6b6-8c1f-e649-a918-9405d5ca2eba
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)
+	at com.qa.automation.pages.MakeMyTripPage.getListOfFlightResults(MakeMyTripPage.java:160)
+	at com.qa.automation.makemytrip.MakeMyTripTest.getFlightsFromDealsPage(MakeMyTripTest.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]></system-err>
+  </testcase>
+</testsuite>

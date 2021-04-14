@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Bioufourmis_Test" duration-ms="148295" started-at="2021-04-14T09:49:37Z" finished-at="2021-04-14T09:52:05Z">
+    <groups>
+    </groups>
+    <test name="TestsOnChrome" duration-ms="66724" started-at="2021-04-14T09:49:37Z" finished-at="2021-04-14T09:50:43Z">
+      <class name="com.qa.automation.ecommerce.EcommerceTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.qa.automation.ecommerce.EcommerceTest@32e6e9c3]" name="setup" is-config="true" duration-ms="5302" started-at="2021-04-14T09:49:37Z" finished-at="2021-04-14T09:49:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="signUp()[pri:0, instance:com.qa.automation.ecommerce.EcommerceTest@32e6e9c3]" name="signUp" duration-ms="21197" started-at="2021-04-14T09:49:42Z" finished-at="2021-04-14T09:50:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method status="PASS" signature="purchaseAnItem()[pri:1, instance:com.qa.automation.ecommerce.EcommerceTest@32e6e9c3]" name="purchaseAnItem" duration-ms="31436" started-at="2021-04-14T09:50:12Z" finished-at="2021-04-14T09:50:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseAnItem -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.automation.ecommerce.EcommerceTest@32e6e9c3]" name="tearDown" is-config="true" duration-ms="214" started-at="2021-04-14T09:50:43Z" finished-at="2021-04-14T09:50:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.automation.ecommerce.EcommerceTest -->
+      <class name="com.qa.automation.makemytrip.MakeMyTripTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.qa.automation.makemytrip.MakeMyTripTest@5056dfcb]" name="setup" is-config="true" duration-ms="5324" started-at="2021-04-14T09:49:37Z" finished-at="2021-04-14T09:49:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getCheapestIndigoNonStopFlightsOnNexWeek()[pri:0, instance:com.qa.automation.makemytrip.MakeMyTripTest@5056dfcb]" name="getCheapestIndigoNonStopFlightsOnNexWeek" duration-ms="29733" started-at="2021-04-14T09:49:42Z" finished-at="2021-04-14T09:50:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCheapestIndigoNonStopFlightsOnNexWeek -->
+        <test-method status="PASS" signature="getFlightsFromDealsPage()[pri:1, instance:com.qa.automation.makemytrip.MakeMyTripTest@5056dfcb]" name="getFlightsFromDealsPage" duration-ms="28432" started-at="2021-04-14T09:50:12Z" finished-at="2021-04-14T09:50:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFlightsFromDealsPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.automation.makemytrip.MakeMyTripTest@5056dfcb]" name="tearDown" is-config="true" duration-ms="580" started-at="2021-04-14T09:50:40Z" finished-at="2021-04-14T09:50:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.automation.makemytrip.MakeMyTripTest -->
+    </test> <!-- TestsOnChrome -->
+    <test name="TestsOnFirefox" duration-ms="81553" started-at="2021-04-14T09:50:43Z" finished-at="2021-04-14T09:52:05Z">
+      <class name="com.qa.automation.ecommerce.EcommerceTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.qa.automation.ecommerce.EcommerceTest@643b1d11]" name="setup" is-config="true" duration-ms="11836" started-at="2021-04-14T09:50:43Z" finished-at="2021-04-14T09:50:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="signUp()[pri:0, instance:com.qa.automation.ecommerce.EcommerceTest@643b1d11]" name="signUp" duration-ms="20077" started-at="2021-04-14T09:50:55Z" finished-at="2021-04-14T09:51:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method status="PASS" signature="purchaseAnItem()[pri:1, instance:com.qa.automation.ecommerce.EcommerceTest@643b1d11]" name="purchaseAnItem" duration-ms="30733" started-at="2021-04-14T09:51:24Z" finished-at="2021-04-14T09:51:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseAnItem -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.automation.ecommerce.EcommerceTest@643b1d11]" name="tearDown" is-config="true" duration-ms="1129" started-at="2021-04-14T09:51:55Z" finished-at="2021-04-14T09:51:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.automation.ecommerce.EcommerceTest -->
+      <class name="com.qa.automation.makemytrip.MakeMyTripTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.qa.automation.makemytrip.MakeMyTripTest@2ef5e5e3]" name="setup" is-config="true" duration-ms="12206" started-at="2021-04-14T09:50:43Z" finished-at="2021-04-14T09:50:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getCheapestIndigoNonStopFlightsOnNexWeek()[pri:0, instance:com.qa.automation.makemytrip.MakeMyTripTest@2ef5e5e3]" name="getCheapestIndigoNonStopFlightsOnNexWeek" duration-ms="28309" started-at="2021-04-14T09:50:56Z" finished-at="2021-04-14T09:51:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCheapestIndigoNonStopFlightsOnNexWeek -->
+        <test-method status="PASS" signature="getFlightsFromDealsPage()[pri:1, instance:com.qa.automation.makemytrip.MakeMyTripTest@2ef5e5e3]" name="getFlightsFromDealsPage" duration-ms="39764" started-at="2021-04-14T09:51:24Z" finished-at="2021-04-14T09:52:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFlightsFromDealsPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.automation.makemytrip.MakeMyTripTest@2ef5e5e3]" name="tearDown" is-config="true" duration-ms="1270" started-at="2021-04-14T09:52:04Z" finished-at="2021-04-14T09:52:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.automation.makemytrip.MakeMyTripTest -->
+    </test> <!-- TestsOnFirefox -->
+  </suite> <!-- Bioufourmis_Test -->
+</testng-results>

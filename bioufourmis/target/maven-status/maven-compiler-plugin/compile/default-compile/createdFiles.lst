@@ -1,0 +1,5 @@
+com/qa/automation/pages/EcommercePage.class
+com/qa/automation/util/ExcelUtil.class
+com/qa/automation/util/Drivers.class
+com/qa/automation/util/GenericUtil.class
+com/qa/automation/pages/MakeMyTripPage.class
