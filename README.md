@@ -9,8 +9,12 @@
 **Scenario 3** : Make My Trip - MakeMyTripTest.getFlightsFromDealsPage()
 
 
-**Reports** Available under : **target/surefire-reports/Bioufourmis_Test**
-                              **target/surefire-reports/emailable-report.html**
-                              **target/surefire-reports/index.html**
+**Reports** Available under : 
+
+                              target/surefire-reports/Bioufourmis_Test
+
+                              target/surefire-reports/emailable-report.html
+                              
+                              target/surefire-reports/index.html
                               
  **Run command**: mvn clean verify                            
