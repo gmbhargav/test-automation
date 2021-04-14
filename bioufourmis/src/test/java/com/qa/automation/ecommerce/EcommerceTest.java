@@ -20,8 +20,8 @@ public class EcommerceTest {
     ExcelUtil excelUtil;
     Drivers drivers;
     String browserName;
-    String userName="testuserqa0012021591421@gmail.com";
-    String password="Mypwd@2021";
+    String userName= null;
+    String password=null;
 
     @BeforeClass
     @Parameters("browser")
